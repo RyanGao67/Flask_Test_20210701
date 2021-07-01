@@ -55,3 +55,9 @@ curl --header "Content-Type: application/json"   --request POST  --data '{"usern
 curl --header "Content-Type: application/json"   --request PUT   --data '{"username":"user5","password":"password7"}'   http://localhost:5000/user
 curl --request DELETE http://localhost:5000/user/user5
 ```
+
+
+### Dependency
+```
+ conda list -e > requirements.txt
+```
